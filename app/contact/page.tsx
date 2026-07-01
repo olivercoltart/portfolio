@@ -49,7 +49,7 @@ export default function ContactPage() {
                 LinkedIn
               </p>
               <ExternalLink
-                href="https://linkedin.com/in/olivercoltart"
+                href="https://www.linkedin.com/in/oliver-coltart-4436841a8/"
                 className="text-body hover:text-muted transition-colors"
               >
                 Oliver Coltart
