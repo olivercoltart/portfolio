@@ -4,6 +4,7 @@ export const cv: CV = {
   roles: [
     {
       company: "OpenRent Ltd",
+      companyUrl: "https://www.openrent.co.uk/",
       title: "Product Management & Customer Service",
       period: "2021 – 2025",
       description:

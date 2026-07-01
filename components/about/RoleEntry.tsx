@@ -1,4 +1,5 @@
 import type { Role } from "@/lib/types";
+import ExternalLink from "@/components/ui/ExternalLink";
 
 interface RoleEntryProps {
   role: Role;
@@ -15,7 +16,13 @@ export default function RoleEntry({ role }: RoleEntryProps) {
       <div>
         <h3 className="font-bold text-subhead mb-0.5">{role.title}</h3>
         <p className="text-label text-muted tracking-wide mb-4">
-          {role.company}
+          {role.companyUrl ? (
+            <ExternalLink href={role.companyUrl} className="hover:text-foreground transition-colors">
+              {role.company}
+            </ExternalLink>
+          ) : (
+            role.company
+          )}
         </p>
         <p className="text-body text-muted leading-relaxed mb-4">
           {role.description}

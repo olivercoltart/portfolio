@@ -14,6 +14,7 @@ export interface Project {
 
 export interface Role {
   company: string;
+  companyUrl?: string;
   title: string;
   period: string;
   description: string;
