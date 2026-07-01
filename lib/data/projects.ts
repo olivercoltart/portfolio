@@ -70,7 +70,6 @@ export const projects: Project[] = [
     description:
       "This machine learning group project involved analysing the Pima Indians Diabetes dataset to predict diabetes outcomes from medical features. The work covered exploratory data analysis, data cleaning (KNN imputation, outlier assessment, duplicate removal), and bias investigation. Several models were trained and compared, including: Logistic Regression, Decision Tree, Random Forest, and Support Vector Machine.",
     tags: ["Python", "Scikit-learn", "Pandas", "NumPy", "Jupyter Notebook"],
-    repo: "https://github.com/olivercoltart/ase2-quiz",
     coverImage: "",
     year: 2025,
     featured: true,
