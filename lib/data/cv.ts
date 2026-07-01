@@ -7,34 +7,35 @@ export const cv: CV = {
       title: "Product Management & Customer Service",
       period: "2021 – 2025",
       description:
-        "Describe your main responsibilities and the scope of your impact. What teams did you work with? What was the scale of the systems you worked on?",
+        "Worked closely with software engineers in a fast-growing startup to deliver and improve a web-based lettings platform. Led user feedback analysis, ticket creation, UX/UI mock-ups, A/B testing, and staff training. Presented weekly proposals to the board and prioritised development work based on impact and complexity. Contributed to product strategy and peer review of technical proposals.",
       highlights: [
-        "Led development of a key product feature shipped to N users",
-        "Improved system performance by X% through targeted optimisation",
-        "Mentored junior engineers and contributed to hiring",
+        "Built a keepalive system to remove unresponsive listings, increasing landlord response rates and tenant satisfaction.",
+        "Improved secure account recovery, expanding verified access pathways.",
+        "Developed an email analytics dashboard, reducing unclear automated messages and customer service enquiries.",
       ],
     },
     {
-      company: "Previous Company",
-      title: "Software Engineer",
-      period: "2021 – 2023",
-      description:
-        "Describe your role and the products you worked on. What was your technical focus? What did you learn?",
-      highlights: [
-        "Built a full-stack feature from design through to production",
-        "Collaborated with product and design to define requirements",
-        "Contributed to open-source tooling used across the team",
-      ],
-    },
-    {
-      company: "Earlier Company",
-      title: "Junior Developer",
+      company: "Self-Employed",
+      title: "Sports Trading",
       period: "2019 – 2021",
       description:
-        "Your first or earlier role. What did you ship? What technical foundations did you build?",
+        "Generated consistent income by leveraging promotional betting offers. Analysed and optimised trading processes to improve efficiency, profitability, and time management.",
       highlights: [
-        "Developed customer-facing web application with React and Node.js",
-        "Worked in an agile team with fortnightly sprints",
+        "Developed strong skills in data analysis, risk management, and decision-making.",
+      ],
+    },
+    {
+      company: "Various Organisations",
+      title: "Internships & Work Experience",
+      period: "2015 – 2018",
+      description:
+        "Various internships, part-time and volunteer positions spanning web design, architecture, estate management, sports coaching, and charity work.",
+      highlights: [
+        "Fern Design Ltd: Designed a company website using WordPress (www.fern-design.co.uk)",
+        "Morsewebb Solway Brown Architects: Internship using CAD programs to design buildings",
+        "Monksmead Estate: Full-time estate maintenance work",
+        "Bradfield College Sports Complex: Assistant Tennis Coach for children aged 3–7",
+        "Volunteer/Charity Work: Worked in an orphanage in Vietnam, painting buildings, maintaining the garden, and caring for children",
       ],
     },
   ],
@@ -42,7 +43,7 @@ export const cv: CV = {
     {
       institution: "University of West London",
       degree: "MSc Software Engineering",
-      period: "2025 – 2026",
+      period: "2025 – Present",
       result: "Awaiting Results",
     },
     {
@@ -60,12 +61,13 @@ export const cv: CV = {
     "Node.js",
     "Python",
     "PostgreSQL",
+    "Prisma ORM",
     "REST APIs",
-    "GraphQL",
     "Docker",
-    "AWS",
     "Vercel",
     "Git",
+    "SolidWorks",
+    "Autodesk Fusion",
     "Figma",
     "Product Strategy",
     "Technical Writing",

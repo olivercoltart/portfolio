@@ -6,7 +6,7 @@ export interface Project {
   tags: string[];
   url?: string;
   repo?: string;
-  coverImage: string;
+  coverImage?: string;
   images?: { src: string; size?: "small" | "large" }[];
   year: number;
   featured: boolean;

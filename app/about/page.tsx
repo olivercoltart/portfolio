@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { cv } from "@/lib/data/cv";
 import RoleEntry from "@/components/about/RoleEntry";
+import EducationEntry from "@/components/about/EducationEntry";
 import SkillGrid from "@/components/about/SkillGrid";
 import Divider from "@/components/ui/Divider";
 
@@ -48,17 +49,14 @@ export default function AboutPage() {
 
         <Divider className="my-12" />
 
-        <h2 className="text-label font-medium tracking-widest uppercase text-muted mb-6">
+        <h2 className="text-label font-medium tracking-widest uppercase text-muted mb-10">
           Education
         </h2>
-        {cv.education.map((edu, i) => (
-          <div key={i} className="py-4">
-            <p className="font-bold text-body">{edu.degree}</p>
-            <p className="text-label text-muted tracking-wide">
-              {edu.institution} · {edu.result} · {edu.period}
-            </p>
-          </div>
-        ))}
+        <div>
+          {cv.education.map((edu, i) => (
+            <EducationEntry key={i} education={edu} />
+          ))}
+        </div>
       </div>
     </main>
   );

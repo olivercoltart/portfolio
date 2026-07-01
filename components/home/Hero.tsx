@@ -15,7 +15,7 @@ export default function Hero() {
             Coltart
           </h1>
           <p className="text-subhead text-muted leading-relaxed max-w-2xl mb-10">
-            A driven fullstack engineer with experience across the entire software development lifecycle,
+            A driven full-stack engineer with experience across the entire software development lifecycle,
             from speaking to customers and planning a solution, to building the final product.
           </p>
           <div className="flex flex-wrap items-center gap-4">

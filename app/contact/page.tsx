@@ -57,10 +57,11 @@ export default function ContactPage() {
             </div>
           </div>
         </div>
-        <div>
+        {/* <div>
           <Divider className="md:hidden mb-8" />
           <ContactForm />
-        </div>
+        </div> */}
+        {/* uncomment when want ot include */}
       </div>
     </main>
   );

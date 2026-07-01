@@ -16,7 +16,7 @@ export default function ImageGrid({ images }: ImageGridProps) {
       {images.map((image) => (
         <div
           key={image.src}
-          className={`relative aspect-video${image.size === "large" ? " col-span-2" : ""}`}
+          className={`relative h-0 pb-[56.25%] overflow-hidden${image.size === "large" ? " col-span-2" : ""}`}
         >
           <Image
             src={image.src}
